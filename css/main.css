@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    margin: 100px;
+    font-family: sans-serif;
+   
+
+}
+.container {
+    margin-left: 15% ;
+    width : 70%;
+   
+    
+    background: linear-gradient(135deg, #00feba , #5b548a);
+    border-radius: 20px;
+   
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+.head {
+  text-align: center;
+  margin-top: 20px;
+
+  
+}
+.head input {
+    background-color:  white;
+    border:  2px solid ;
+    border-radius: 14px;
+    width: 200px;
+    height:30px;
+    margin-right: 20px;
+    border: 0;
+    outline: 0;
+}
+.image {
+    width: 60%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 50px;
+    position: static;
+}
+/* .temp{
+    margin-top: 150px;
+} */
+.temp h2 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+    position: static;
+}
+.temp h4 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.info{
+    margin-top: 20px;
+  position: static;
+  display: flex;
+}
+.info1{
+    display: flex;
+}
+.info2{
+    display: flex;
+}
+.info1 h3,p {
+    margin: 20px;
+
+}
+.info2 h3,p {
+    margin: 20px;
+
+}
+.img1 {
+    width: 70px;
+    height: 70px;
+    justify-content: left;
+    margin-left: 20px;
+
+}
+.img2 {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+button {
+    
+    opacity: 0.8;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 14px;
+    
+}
+.inputBtn{
+    width: 30px;
+    height: 30px;
+    border: 50%;
+}
+
+@media screen and (max-width: 1408px) {
+    .info{
+        display: block;
+    }
+   
+    .info .img1 {
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+       
+        display: block;
+
+    }
+    .info .img2 {
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+       margin-left: 20px;
+        display: block;
+
+    }
+    .temp h2 {
+        
+        font-size: 50px;
+      
+    }
+    .temp h4 {
+      
+        font-size: 30px;
+       
+    }
+    .image {
+        width: 20%;
+        height: 20%;
+        margin-left: 35%;
+        margin-top: 50px;
+    }
+    
+}
